@@ -1,0 +1,12 @@
+.radio-img  > input { 
+    display:none;
+}
+.radio-img  > img{
+    cursor:pointer;
+    border:2px solid transparent;
+    filter: sepia(50%);
+}
+.radio-img  > input:checked + img{ 
+    border:2px solid orange;
+    filter: none;
+}

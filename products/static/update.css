@@ -1,0 +1,1011 @@
+/**
+ * ------------------------------------------------------------------ + Pricing Plans
+ * -------------------------------------------------------------------
+ */
+
+.pricing {
+  padding    : 100px 0;
+  background : #f7f7f7;
+  text-align : center;
+}
+
+.pricing h2 {
+  margin-bottom : 30px;
+}
+
+.pricing p:last-of-type {
+  margin-bottom : 50px;
+}
+
+.pricing .package {
+  padding-top        : 1px;
+  padding-bottom     : 50px;
+  background         : #fff;
+  -webkit-box-shadow : inset 0 0 0 1px #ddd;
+  box-shadow         : inset 0 0 0 1px #ddd;
+  -moz-transition    : all 0.3s ease;
+  -ms-transition     : all 0.3s ease;
+  -o-transition      : all 0.3s ease;
+  -webkit-transition : all 0.3s ease;
+  transition         : all 0.3s ease;
+}
+
+@media
+  screen
+  and (max-width : 991px) {
+  .pricing .package {
+    margin-bottom : 50px;
+  }
+}
+
+.pricing .package .top {
+  margin             : 0 1px;
+  background         : #f7f7f7;
+  -moz-transition    : all 0.3s ease;
+  -ms-transition     : all 0.3s ease;
+  -o-transition      : all 0.3s ease;
+  -webkit-transition : all 0.3s ease;
+  transition         : all 0.3s ease;
+}
+
+.pricing .package .top .title {
+  margin             : 0 50px;
+  padding            : 30px 0;
+  border-bottom      : 1px solid #ddd;
+  text-transform     : uppercase;
+  font-weight        : 600;
+  -moz-transition    : all 0.3s ease;
+  -ms-transition     : all 0.3s ease;
+  -o-transition      : all 0.3s ease;
+  -webkit-transition : all 0.3s ease;
+  transition         : all 0.3s ease;
+}
+
+.pricing .package .top .price {
+  margin         : 35px 0 15px;
+  font-family    : "Poppins";
+  font-size      : 57px;
+  font-weight    : 600;
+  line-height    : 70%;
+  letter-spacing : 2px;
+  transition     : all 0.3s ease;
+}
+
+.pricing .package .top .price span {
+  font-size : 48px;
+}
+
+.pricing .package .top .time {
+  margin             : 0;
+  padding-bottom     : 25px;
+  -moz-transition    : all 0.3s ease;
+  -ms-transition     : all 0.3s ease;
+  -o-transition      : all 0.3s ease;
+  -webkit-transition : all 0.3s ease;
+  transition         : all 0.3s ease;
+}
+
+.pricing .package .bottom ul.features {
+  padding : 30px 0 50px 0;
+}
+
+.pricing .package .bottom ul.features li {
+  padding        : 5px 0;
+  border-bottom  : 1px solid #f7f7f7;
+  text-transform : uppercase;
+  list-style     : none;
+}
+
+.pricing .package .bottom ul.features li:first-child {
+  padding-top : 0;
+  border-top  : 1px solid #f7f7f7;
+}
+
+.pricing .package .bottom ul.features li:last-child {
+  padding-bottom : 0;
+}
+
+.pricing .package.active {
+  -webkit-box-shadow : inset 0 0 0 1px #077ce6;
+  box-shadow         : inset 0 0 0 1px #077ce6;
+}
+
+.pricing .package.active .top {
+  background : #077ce6;
+}
+
+.pricing .package.active .top .price,
+.pricing .package.active .top .time,
+.pricing .package.active .top .title {
+  color : #fff;
+}
+
+.pricing .package.active .top .title {
+  border-bottom : 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media
+  screen
+  and (max-width : 991px) {
+  .pricing .package_3 {
+    margin-bottom : 0;
+  }
+}
+
+.product.woocommerce.add_to_cart_inline {
+  border : 0 !important;
+}
+
+.product.woocommerce.add_to_cart_inline span {
+  display : none !important;
+}
+
+.cart-contents:before {
+  content        : "\e01d";
+  margin-top     : 10px;
+  padding-right  : 5px;
+  vertical-align : bottom;
+  font-family    : WooCommerce;
+  font-size      : 17px;
+  font-style     : normal;
+  font-weight    : 400;
+}
+
+.cart-contents:hover {
+  text-decoration : none;
+}
+
+.cart-button {
+  padding : 0 15px;
+}
+
+.blog-custom-class .media {
+  overflow : inherit;
+}
+
+.blog-custom-class .cd-stretchy-nav.edit-content .cd-nav-trigger {
+  -ms-transform     : inherit;
+  -webkit-transform : inherit;
+  transform         : inherit;
+}
+
+.blog-custom-class .cd-stretchy-nav.edit-content .cd-nav-trigger {
+  width      : 30px;
+  height     : 30px;
+  background : #2979ff;
+}
+
+.blog-custom-class .cd-nav-trigger span {
+  top  : 48%;
+  left : 50%;
+}
+
+article.post .media-body {
+  width     : auto !important;
+  max-width : 640px;
+}
+
+ol {
+  list-style-type : decimal !important;
+}
+
+.post table {
+  margin : 20px 0 40px;
+}
+
+.post .gallery-item {
+  text-align : left !important;
+}
+
+/* visual-composer options */
+
+.container.bootstrap {
+  margin-right : auto !important;
+  margin-left  : auto !important;
+}
+
+.vc_row-has-fill>.vc_column_container>.vc_column-inner {
+  padding-top : 0px !important;
+}
+
+.vc_row {
+  margin-right  : 0px !important;
+  margin-bottom : 0px !important;
+  margin-left   : 0px !important;
+}
+
+.vc_column_container>.vc_column-inner {
+  padding-right : 0px !important;
+  padding-left  : 0px !important;
+}
+
+.wpcf7 br {
+  display : none;
+}
+
+body.page-template-unlimited-page header .navbar {
+  background : transparent;
+}
+
+/* others */
+
+.collections .item .featured-img img {
+  height : auto;
+}
+
+.woocommerce select {
+  height        : 50px !important;
+  padding       : 4px 15px !important;
+  border-color  : #e0e8ee !important;
+  border-radius : 0 !important;
+  background    : #f8fbfd !important;
+  box-shadow    : none !important;
+  font          : 300 17px/24px "Poppins",
+                  sans-serif !important;
+}
+
+.product-desc .choose-form .option p {
+  margin-top  : 24px;
+  color       : #0084FF;
+  font-weight : 500;
+}
+
+.wpcf7-not-valid,
+.wpcf7-not-valid:focus {
+  border-color : #F96152;
+  background   : #fff;
+  box-shadow   : none;
+}
+
+.wpcf7-not-valid-tip {
+  display : none !important;
+}
+
+/* edit-content navigation */
+
+.cd-stretchy-nav {
+  position : fixed;
+  top      : 40px;
+  right    : 5%;
+}
+
+.cd-stretchy-nav ul {
+  z-index : 0;
+}
+
+.nav-is-visible ul {
+  z-index : 4;
+}
+
+.cd-stretchy-nav .stretchy-nav-bg {
+  /* this is the stretching navigation background */
+  z-index            : 1;
+  position           : absolute;
+  top                : 0;
+  right              : 0;
+  width              : 60px;
+  height             : 60px;
+  border-radius      : 30px;
+  background         : #9acd91;
+  box-shadow         : 0 1px 4px rgba(0, 0, 0, 0.2);
+  -moz-transition    : height 0.2s,
+                       box-shadow 0.2s;
+  -webkit-transition : height 0.2s,
+                       box-shadow 0.2s;
+  transition         : height 0.2s,
+                       box-shadow 0.2s;
+}
+
+.cd-stretchy-nav.nav-is-visible .stretchy-nav-bg {
+  height     : 100%;
+  box-shadow : 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cd-nav-trigger {
+  z-index       : 3;
+  position      : absolute;
+  top           : 0;
+  right         : 0;
+  width         : 60px;
+  height        : 60px;
+  color         : transparent;
+  overflow      : hidden;
+  border-radius : 50%;
+  white-space   : nowrap;
+  /* replace text with image */
+}
+
+.cd-nav-trigger span,
+.cd-nav-trigger span::after,
+.cd-nav-trigger span::before {
+  /* this is the hamburger icon */
+  position         : absolute;
+  width            : 12px;
+  height           : 2px;
+  background-color : #ffffff;
+}
+
+.cd-nav-trigger span {
+  /* middle line of the hamburger icon */
+  top                : 50%;
+  right              : auto;
+  bottom             : auto;
+  left               : 50%;
+  -moz-transform     : translateX(-50%) translateY(-50%);
+  -ms-transform      : translateX(-50%) translateY(-50%);
+  -o-transform       : translateX(-50%) translateY(-50%);
+  -webkit-transform  : translateX(-50%) translateY(-50%);
+  transform          : translateX(-50%) translateY(-50%);
+  -moz-transition    : background-color 0.2s;
+  -webkit-transition : background-color 0.2s;
+  transition         : background-color 0.2s;
+}
+
+.cd-nav-trigger span::after,
+.cd-nav-trigger span::before {
+  /* top and bottom lines of the hamburger icon */
+  content : '';
+  top     : 0;
+  left    : 0;
+}
+
+.cd-nav-trigger span::before {
+  -moz-transform    : translateY(-6px);
+  -ms-transform     : translateY(-6px);
+  -o-transform      : translateY(-6px);
+  -webkit-transform : translateY(-6px);
+  transform         : translateY(-6px);
+}
+
+.cd-nav-trigger span::after {
+  -moz-transform    : translateY(6px);
+  -ms-transform     : translateY(6px);
+  -o-transform      : translateY(6px);
+  -webkit-transform : translateY(6px);
+  transform         : translateY(6px);
+}
+
+.no-touch .cd-nav-trigger:hover ~ .stretchy-nav-bg {
+  box-shadow : 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.nav-is-visible .cd-nav-trigger span {
+  background-color : transparent;
+}
+
+.nav-is-visible .cd-nav-trigger span::before {
+  -moz-transform    : rotate(-45deg);
+  -ms-transform     : rotate(-45deg);
+  -o-transform      : rotate(-45deg);
+  -webkit-transform : rotate(-45deg);
+  transform         : rotate(-45deg);
+}
+
+.nav-is-visible .cd-nav-trigger span::after {
+  -moz-transform    : rotate(45deg);
+  -ms-transform     : rotate(45deg);
+  -o-transform      : rotate(45deg);
+  -webkit-transform : rotate(45deg);
+  transform         : rotate(45deg);
+}
+
+.cd-stretchy-nav ul {
+  z-index            : 2;
+  visibility         : hidden;
+  position           : relative;
+  padding            : 60px 0 0;
+  text-align         : right;
+  -moz-transition    : visibility 0.1s;
+  -webkit-transition : visibility 0.1s;
+  transition         : visibility 0.1s;
+}
+
+.cd-stretchy-nav ul {
+  z-index : 0;
+}
+
+.nav-is-visible ul {
+  z-index : 4;
+}
+
+.cd-stretchy-nav ul a {
+  display            : block;
+  position           : relative;
+  height             : 50px;
+  padding            : 0 calc(1em + 60px) 0 1em;
+  color              : rgba(255, 255, 255, 0.7);
+  font-size          : 1.4rem;
+  line-height        : 50px;
+  -moz-transition    : color 0.2s;
+  -webkit-transition : color 0.2s;
+  transition         : color 0.2s;
+}
+
+.cd-stretchy-nav ul a::after {
+  /* navigation item icons */
+  content           : '';
+  position          : absolute;
+  top               : 50%;
+  right             : 22px;
+  width             : 16px;
+  height            : 16px;
+  opacity           : .6;
+  -moz-transform    : translateY(-50%) scale(0);
+  -ms-transform     : translateY(-50%) scale(0);
+  -o-transform      : translateY(-50%) scale(0);
+  -webkit-transform : translateY(-50%) scale(0);
+  transform         : translateY(-50%) scale(0);
+}
+
+.cd-stretchy-nav ul a::before {
+  /* line visible next to the active navigation item */
+  content           : '';
+  position          : absolute;
+  top               : 50%;
+  right             : 60px;
+  width             : 3px;
+  height            : 16px;
+  background-color  : #0a9581;
+  -moz-transform    : translateX(3px) translateY(-50%) scaleY(0);
+  -ms-transform     : translateX(3px) translateY(-50%) scaleY(0);
+  -o-transform      : translateX(3px) translateY(-50%) scaleY(0);
+  -webkit-transform : translateX(3px) translateY(-50%) scaleY(0);
+  transform         : translateX(3px) translateY(-50%) scaleY(0);
+}
+
+.cd-stretchy-nav ul li:first-of-type a::after {
+  /* change custom icon using image sprites */
+  background-position : -32px 0;
+}
+
+.cd-stretchy-nav ul li:nth-of-type(2) a::after {
+  background-position : -64px 0;
+}
+
+.cd-stretchy-nav ul li:nth-of-type(3) a::after {
+  background-position : -48px 0;
+}
+
+.cd-stretchy-nav ul li:nth-of-type(4) a::after {
+  background-position : 0 0;
+}
+
+.cd-stretchy-nav ul li:nth-of-type(5) a::after {
+  background-position : -16px 0;
+}
+
+.cd-stretchy-nav ul span {
+  /* navigation item labels */
+  display           : block;
+  opacity           : 0;
+  -moz-transform    : translateX(-25px);
+  -ms-transform     : translateX(-25px);
+  -o-transform      : translateX(-25px);
+  -webkit-transform : translateX(-25px);
+  transform         : translateX(-25px);
+}
+
+.cd-stretchy-nav.nav-is-visible ul {
+  visibility : visible;
+}
+
+.cd-stretchy-nav.nav-is-visible ul a::after {
+  /* navigation item icons */
+  -moz-animation     : scaleIn 0.15s backwards;
+  -webkit-animation  : scaleIn 0.15s backwards;
+  animation          : scaleIn 0.15s backwards;
+  -moz-transform     : translateY(-50%) scale(1);
+  -ms-transform      : translateY(-50%) scale(1);
+  -o-transform       : translateY(-50%) scale(1);
+  -webkit-transform  : translateY(-50%) scale(1);
+  transform          : translateY(-50%) scale(1);
+  -moz-transition    : opacity 0.2s;
+  -webkit-transition : opacity 0.2s;
+  transition         : opacity 0.2s;
+}
+
+.cd-stretchy-nav.nav-is-visible ul a.active {
+  color : #ffffff;
+}
+
+.cd-stretchy-nav.nav-is-visible ul a.active::after {
+  opacity : 1;
+}
+
+.cd-stretchy-nav.nav-is-visible ul a.active::before {
+  -moz-transform     : translateX(3px) translateY(-50%) scaleY(1);
+  -ms-transform      : translateX(3px) translateY(-50%) scaleY(1);
+  -o-transform       : translateX(3px) translateY(-50%) scaleY(1);
+  -webkit-transform  : translateX(3px) translateY(-50%) scaleY(1);
+  transform          : translateX(3px) translateY(-50%) scaleY(1);
+  -moz-transition    : -moz-transform 0.15s 0.3s;
+  -webkit-transition : -webkit-transform 0.15s 0.3s;
+  transition         : transform 0.15s 0.3s;
+}
+
+.cd-stretchy-nav.nav-is-visible ul span {
+  opacity            : 1;
+  -moz-animation     : slideIn 0.15s backwards;
+  -webkit-animation  : slideIn 0.15s backwards;
+  animation          : slideIn 0.15s backwards;
+  -moz-transform     : translateX(0);
+  -ms-transform      : translateX(0);
+  -o-transform       : translateX(0);
+  -webkit-transform  : translateX(0);
+  transform          : translateX(0);
+  -moz-transition    : -moz-transform 0.2s;
+  -webkit-transition : -webkit-transform 0.2s;
+  transition         : transform 0.2s;
+}
+
+.no-touch .cd-stretchy-nav.nav-is-visible ul a:hover {
+  color : #ffffff;
+}
+
+.no-touch .cd-stretchy-nav.nav-is-visible ul a:hover::after {
+  opacity : 1;
+}
+
+.no-touch .cd-stretchy-nav.nav-is-visible ul a:hover span {
+  -moz-transform    : translateX(-5px);
+  -ms-transform     : translateX(-5px);
+  -o-transform      : translateX(-5px);
+  -webkit-transform : translateX(-5px);
+  transform         : translateX(-5px);
+}
+
+.cd-stretchy-nav.nav-is-visible ul li:first-of-type a::after,
+.cd-stretchy-nav.nav-is-visible ul li:first-of-type span {
+  -moz-animation-delay    : 0.05s;
+  -webkit-animation-delay : 0.05s;
+  animation-delay         : 0.05s;
+}
+
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(2) a::after,
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(2) span {
+  -moz-animation-delay    : 0.1s;
+  -webkit-animation-delay : 0.1s;
+  animation-delay         : 0.1s;
+}
+
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(3) a::after,
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(3) span {
+  -moz-animation-delay    : 0.15s;
+  -webkit-animation-delay : 0.15s;
+  animation-delay         : 0.15s;
+}
+
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(4) a::after,
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(4) span {
+  -moz-animation-delay    : 0.2s;
+  -webkit-animation-delay : 0.2s;
+  animation-delay         : 0.2s;
+}
+
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) a::after,
+.cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) span {
+  -moz-animation-delay    : 0.25s;
+  -webkit-animation-delay : 0.25s;
+  animation-delay         : 0.25s;
+}
+
+/**
+ * --------------------------------
+ *
+ * edit content
+ *
+ * --------------------------------
+ */
+
+.cd-editable-content {
+  /* used to wrap the image and the navigation */
+  position : relative;
+}
+
+.cd-stretchy-nav.edit-content {
+  position : absolute;
+  top      : 15px;
+  right    : 15px;
+}
+
+.cd-stretchy-nav.edit-content .stretchy-nav-bg {
+  width              : 30px;
+  height             : 30px;
+  background-color   : rgba(0, 0, 0, 0.4);
+  box-shadow         : none;
+  -moz-transition    : background 0.2s,
+                       height 0.2s;
+  -webkit-transition : background 0.2s,
+                       height 0.2s;
+  transition         : background 0.2s,
+                       height 0.2s;
+}
+
+.cd-stretchy-nav.edit-content.nav-is-visible .stretchy-nav-bg {
+  height           : 100%;
+  background-color : rgba(0, 0, 0, 0.8);
+  box-shadow       : none;
+  /* reset default style */
+}
+
+.cd-stretchy-nav.edit-content .cd-nav-trigger {
+  width  : 30px;
+  height : 30px;
+}
+
+.cd-nav-trigger span {
+  /* middle line of the hamburger icon */
+  top                : 46%;
+  right              : auto;
+  bottom             : auto;
+  left               : 50%;
+  -moz-transform     : translateX(-50%) translateY(-50%);
+  -ms-transform      : translateX(-50%) translateY(-50%);
+  -o-transform       : translateX(-50%) translateY(-50%);
+  -webkit-transform  : translateX(-50%) translateY(-50%);
+  transform          : translateX(-50%) translateY(-50%);
+  -moz-transition    : background-color 0.2s;
+  -webkit-transition : background-color 0.2s;
+  transition         : background-color 0.2s;
+}
+
+.cd-nav-trigger span::after,
+.cd-nav-trigger span::before {
+  /* top and bottom lines of the hamburger icon */
+  content : '';
+  top     : 0;
+  left    : 0;
+}
+
+.cd-nav-trigger span::before {
+  -moz-transform    : translateY(-6px);
+  -ms-transform     : translateY(-6px);
+  -o-transform      : translateY(-6px);
+  -webkit-transform : translateY(-6px);
+  transform         : translateY(-4px);
+}
+
+.cd-nav-trigger span::after {
+  -moz-transform    : translateY(6px);
+  -ms-transform     : translateY(6px);
+  -o-transform      : translateY(6px);
+  -webkit-transform : translateY(6px);
+  transform         : translateY(4px);
+}
+
+.no-touch .cd-nav-trigger:hover ~ .stretchy-nav-bg {
+  box-shadow : 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.nav-is-visible .cd-nav-trigger span {
+  background-color : transparent;
+}
+
+.nav-is-visible .cd-nav-trigger span::before {
+  -moz-transform    : rotate(-45deg);
+  -ms-transform     : rotate(-45deg);
+  -o-transform      : rotate(-45deg);
+  -webkit-transform : rotate(-45deg);
+  transform         : rotate(-45deg);
+}
+
+.nav-is-visible .cd-nav-trigger span::after {
+  -moz-transform    : rotate(45deg);
+  -ms-transform     : rotate(45deg);
+  -o-transform      : rotate(45deg);
+  -webkit-transform : rotate(45deg);
+  transform         : rotate(45deg);
+}
+
+.cd-stretchy-nav.edit-content ul {
+  padding-top : 30px;
+}
+
+.cd-stretchy-nav.edit-content ul a {
+  width       : 30px;
+  height      : 30px;
+  padding     : 0;
+  text-align  : center;
+  line-height : 30px;
+}
+
+.cd-stretchy-nav.edit-content ul a::after {
+  right : 7px;
+}
+
+.cd-stretchy-nav.edit-content ul li {
+  margin     : 0;
+  list-style : none;
+}
+
+.cd-stretchy-nav.edit-content ul li:first-of-type a::after {
+  background-position : -16px 0;
+}
+
+.cd-stretchy-nav.edit-content ul li:nth-of-type(2) a::after {
+  background-position : -32px 0;
+}
+
+.cd-stretchy-nav.edit-content ul li:nth-of-type(3) a::after {
+  background-position : -48px 0;
+}
+
+.cd-stretchy-nav.edit-content ul li:nth-of-type(4) a::after {
+  background-position : -64px 0;
+}
+
+.cd-stretchy-nav.edit-content ul span {
+  visibility         : hidden;
+  position           : absolute;
+  top                : 0;
+  right              : 35px;
+  height             : 30px;
+  padding            : 0 1em;
+  opacity            : 0;
+  border-radius      : 2px;
+  background-color   : rgba(0, 0, 0, 0.55);
+  text-align         : center;
+  line-height        : 30px;
+  -moz-transition    : opacity 0.2s,
+                       visibility 0.2s;
+  -webkit-transition : opacity 0.2s,
+                       visibility 0.2s;
+  transition         : opacity 0.2s,
+                       visibility 0.2s;
+}
+
+.cd-stretchy-nav.edit-content ul span::after {
+  /* triangle below the tooltip */
+  content           : '';
+  position          : absolute;
+  top               : 50%;
+  bottom            : auto;
+  left              : 100%;
+  width             : 0;
+  height            : 0;
+  border            : 4px solid transparent;
+  border-left-color : rgba(0, 0, 0, 0.55);
+  -moz-transform    : translateY(-50%);
+  -ms-transform     : translateY(-50%);
+  -o-transform      : translateY(-50%);
+  -webkit-transform : translateY(-50%);
+  transform         : translateY(-50%);
+}
+
+.cd-stretchy-nav.edit-content.nav-is-visible ul span {
+  /* reset default style */
+  -moz-animation    : none;
+  -webkit-animation : none;
+  animation         : none;
+}
+
+.cd-stretchy-nav.edit-content.nav-is-visible ul a:hover span {
+  visibility        : visible;
+  opacity           : 1;
+  -moz-transform    : translateX(0);
+  -ms-transform     : translateX(0);
+  -o-transform      : translateX(0);
+  -webkit-transform : translateX(0);
+  transform         : translateX(0);
+  /* reset default style */
+}
+
+/**
+ * --------------------------------
+ *
+ * keyframes
+ *
+ * --------------------------------
+ */
+
+@-webkit-keyframes scaleIn {
+  from {
+    -webkit-transform : translateY(-50%) scale(0);
+  }
+
+  to {
+    -webkit-transform : translateY(-50%) scale(1);
+  }
+}
+
+@-moz-keyframes scaleIn {
+  from {
+    -moz-transform : translateY(-50%) scale(0);
+  }
+
+  to {
+    -moz-transform : translateY(-50%) scale(1);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    -moz-transform    : translateY(-50%) scale(0);
+    -ms-transform     : translateY(-50%) scale(0);
+    -o-transform      : translateY(-50%) scale(0);
+    -webkit-transform : translateY(-50%) scale(0);
+    transform         : translateY(-50%) scale(0);
+  }
+
+  to {
+    -moz-transform    : translateY(-50%) scale(1);
+    -ms-transform     : translateY(-50%) scale(1);
+    -o-transform      : translateY(-50%) scale(1);
+    -webkit-transform : translateY(-50%) scale(1);
+    transform         : translateY(-50%) scale(1);
+  }
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    opacity           : 0;
+    -webkit-transform : translateX(-25px);
+  }
+
+  to {
+    opacity           : 1;
+    -webkit-transform : translateX(0);
+  }
+}
+
+@-moz-keyframes slideIn {
+  from {
+    opacity        : 0;
+    -moz-transform : translateX(-25px);
+  }
+
+  to {
+    opacity        : 1;
+    -moz-transform : translateX(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity           : 0;
+    -moz-transform    : translateX(-25px);
+    -ms-transform     : translateX(-25px);
+    -o-transform      : translateX(-25px);
+    -webkit-transform : translateX(-25px);
+    transform         : translateX(-25px);
+  }
+
+  to {
+    opacity           : 1;
+    -moz-transform    : translateX(0);
+    -ms-transform     : translateX(0);
+    -o-transform      : translateX(0);
+    -webkit-transform : translateX(0);
+    transform         : translateX(0);
+  }
+}
+
+header.row {
+  background-size : cover;
+}
+
+.post p {
+  color : #8e9eac;
+  font  : 300 17px/26px "Poppins",
+          sans-serif;
+}
+
+@media
+  screen
+  and (max-width : 1200px) {
+  #main-navbar .nav li a {
+    padding : 0px 9px;
+    font    : 500 14px/40px "Poppins",
+              sans-serif;
+  }
+}
+
+/* Gutenberg updates */
+
+.wp-block-cover p.wp-block-cover-text {
+  color : #fff;
+}
+
+.wp-block-button {
+  margin-bottom : 15px;
+}
+
+.wp-block-gallery.nt-theme-content-list {
+  margin  : 0 0 30px !important;
+  padding : 0px !important;
+}
+
+.wp-block-gallery.alignleft.columns-2.is-cropped.nt-theme-content-list {
+  margin-right : 15px !important;
+}
+
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large {
+  margin  : 30px 0 32px 45px;
+  padding : 0 1em;
+}
+
+.wp-block-archives.wp-block-archives-dropdown .nice-select {
+  max-width : 250px;
+  float     : none;
+}
+
+.wp-block-columns.alignwide.has-3-columns blockquote {
+  margin : 0 auto !important;
+}
+
+.wp-block-archives.wp-block-archives-dropdown,
+.wp-block-archives.wp-block-archives-list,
+.wp-block-categories.wp-block-categories-list,
+.wp-block-latest-comments.has-avatars.has-dates.has-excerpts,
+.wp-block-latest-comments,
+.wp-block-latest-posts.is-grid,
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  margin-bottom : 30px !important;
+}
+
+.wp-block-media-text {
+  margin-bottom : 30px;
+}
+
+.nt-theme-content .wp-block-archives.wp-block-archives-dropdown .nice-select .option {
+  min-height    : 40px;
+  padding-right : 29px;
+  padding-left  : 18px;
+  outline       : none;
+  font-weight   : 400;
+  line-height   : 40px;
+  list-style    : none;
+  cursor        : pointer;
+}
+
+.blocks-gallery-grid .blocks-gallery-image,
+.blocks-gallery-grid .blocks-gallery-item,
+.wp-block-gallery .blocks-gallery-image,
+.wp-block-gallery .blocks-gallery-item {
+  margin : 0 5px 5px 0 !important;
+}
+
+.wp-block-embed {
+  margin-bottom : 2em;
+}
+
+ul.wp-block-latest-posts.wp-block-latest-posts__list.has-dates li {
+  margin-bottom : 20px;
+}
+
+ul.wp-block-archives.wp-block-archives-list li,
+ul.wp-block-categories.wp-block-categories-list li {
+  margin-bottom : 10px;
+}
+
+.wp-block-gallery {
+  margin  : 0 5px 20px 0px;
+  padding : 0 !important;
+}
+
+.wp-block-latest-comments {
+  padding : 0;
+}
+
+.wp-block-image {
+  margin-bottom : 2em;
+}
+
+.wp-block-cover {
+  margin : 0 25px 25px 0;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  padding-left : 0;
+}
+article.post .post-pagination {
+    margin-bottom: 20px;
+}
+.archive #blog, .search #blog {
+    padding: 75px 0 10px;
+}
+.content-justify-center {
+    display: flex;
+    justify-content: center;
+}
