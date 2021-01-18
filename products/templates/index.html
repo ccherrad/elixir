@@ -1185,7 +1185,13 @@
                                       <div class="row m0 featured-img">
                                       </div>
                                       <h4 class="title">{{ product.name }}</h4>
+                                      {% if product.discount == 0 %}
                                       <h4 class="price">{{ product.price }} د.ج</h4>
+                                      {% else %}
+                                      <h4 class="price" style="text-decoration: line-through;">{{ product.price }} د.ج</h4>
+                                      <h4 class="price">{{ product.discount_price }} د.ج</h4>
+                                      {% endif %}
+                                      <h4 class="price">{{ product.sec_price }}</h4>
                                    </div>
                                 {% endfor %}
                              </div>

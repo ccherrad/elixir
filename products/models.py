@@ -12,6 +12,10 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+    @property
+    def discount_price(self):
+        return self.price - self.price * self.discount / 100
+
 
 class Order(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
